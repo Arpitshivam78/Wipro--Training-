@@ -1,0 +1,33 @@
+Write a brief summary on scrum framework. 
+
+Scrum is an agile framework used primarily for software development, But it can also be applied to any complex project or innovative project. 
+It organizes work into small, or manageable chunks which is known as scrum. Typically lasting from 1 to 4 weeks.
+aiming to deliver a potentially shippable product increment at the end of each sprint. 
+
+Key elements of Scrum include:
+
+Roles:
+
+    Product Owner – It defines the product backlog and prioritizes needs.
+
+    Scrum Master – It facilitates the process, removes obstacles, and ensures Scrum practices are followed.
+
+    Development Team – It self-organizing group responsible for delivering the product. 
+
+Artifacts:
+
+    Product Backlog – a prioritized list of features, enhancements, and fixes.
+
+    Sprint Backlog – tasks selected for completion during the current sprint.
+
+    Increment – the completed work that meets the "Definition of Done."
+
+Events (Ceremonies):
+
+       Sprint Planning – deciding what to work on during the sprint.
+
+       Daily Scrum – a 15-minute stand-up meeting to synchronize activities.
+
+       Sprint Review – a demo of completed work to stakeholders.
+
+       Sprint Retrospective – reflecting on the sprint and identifying improvements.

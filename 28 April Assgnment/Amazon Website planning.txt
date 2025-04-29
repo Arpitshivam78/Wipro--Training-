@@ -1,0 +1,70 @@
+Epic - Manage addresses - More than 4 weeks 
+
+Features  
+      
+   1. Manage Addresses 
+   2. Amazon Prime
+   3. Payment Method 
+   4. Sign IN  
+   5. Digital Services and Desk Support 
+User Stories  
+   
+    1. Manage Orders    
+        a. Your Address  
+        b. Set as Default 
+        c. Edit Address 
+        d. Remove Address  
+   
+   2. Amazon Prime 
+       a. Prime Shopping Edition 
+       b. Prime Lite 
+       c. Prime Yearly Plan 
+       d. Prime Monthly Plan 
+       e. Join Prime  
+   
+   3. Payment Method 
+       a. Manage Kindle Payment Setting
+       b. Edit payment method for a current order
+       c. Manage Merchant Payment Options
+   
+   4. Sign In 
+      a. Account Name or Phone Number. 
+      b. Password 
+      c. Sign In 
+      d. Forgot Password 
+      e. Keep me signed in 
+      f. Get an Otp on your phone 
+      g. Switch Account. 
+   
+   5. Digital Services and Desk Support 
+      a. Search bar for help in Digital Services and Desk Support. 
+      b. Manage Content & Devices 
+      c. Prime Video Settings  
+      d. Your Memberships & Subscriptions     
+              
+ Tasks:- 
+       Edit Address-   
+       a. Build the UI layer - 5hr 
+       b. Build API Layer - 8hrs 
+       c. Build the DB layer - 6 hrs   
+
+       Amazon Prime:-   
+       a. Build the UI layer - 5hr 
+       b. Build API Layer - 10hrs 
+       c. Build the DB layer - 6 hrs 
+       
+       Payment Options :- 
+       a. Build the UI layer - 5hr 
+       b. Build API Layer - 14hrs 
+       c. Build the DB layer - 6 hrs 
+       
+       Account Setting :- 
+       a. Build the UI layer - 5hr 
+       b. Build API Layer - 10hrs 
+       c. Build the DB layer - 6 hrs 
+       
+       Digital Services and Desk Support :- 
+       a. Build the UI layer - 5hr 
+       b. Build API Layer - 16hrs 
+       c. Build the DB layer - 6 hrs  
+       

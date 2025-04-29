@@ -1,0 +1,43 @@
+Assignment 4 : Agile Project Planning - Create a Shipping Epic for Amazon.in 
+
+
+Epic Shipping :-    
+               
+              Features :- 
+                a. Shipping Address 
+                b. Shipping ID 
+                c. Tracking Shipment.   
+                d. Same Day delivery
+                e. Automated Update on the product. 
+                f. Return and pickup service. 
+
+User Stories :- 
+     
+     a. Shipping Address :- 
+        Adress, pincode, Street, Landmark 
+     
+     b. Shipping ID :- 
+        GPS
+     
+     c. Tracking Shipment :- 
+        Gps, sms updates, whatsapp updates. 
+      
+     d. Same Day delivery :-  
+        As a customer, I want the option for same-day delivery.  
+     
+     e. Automated Update on the product :- 
+        SMS, Notification system. 
+     
+     f. Return and pickup service :- 
+        Develop quick return UI and fast pickup servie from thrid party app.  
+
+Tasks :- 
+       a. Build the UI layer - 5hr 
+       b. Build API Layer - 8hrs 
+       c. Build the DB layer - 6 hrs   
+
+        
+              
+                
+ 
+

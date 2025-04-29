@@ -1,0 +1,50 @@
+Assignment 3: Agile Project Planning - Create a Payment Epic for Amazon.in. Break it down into Features, User Stories and Tasks. 
+
+
+Epic Payment :-  
+
+Features :- 
+    a. CC 
+    b. DC 
+    c. UPI Payment  
+    d. EMI Options 
+    e. COD 
+
+User Stories :- 
+    a. CC Payment
+       HDFC, ICICI, UNION Bank, SBI 
+    
+    b. DC Payment 
+       HDFC, ICICI, Union Bank, SBI 
+    
+    c. UPI Payment 
+       Gpay, Phone Pe, Amazon Pay, Paytm. 
+    
+    d. EMI Options 
+       Credit Card EMI:- 
+       HDFC, ICICI, UNION Bank, SBI 
+       
+       Debit Card EMI:-  
+       HDFC, ICICI, UNION Bank, SBI  
+     
+    e. COD Payment:- 
+       Cash  
+       UPI :- Gpay, Phone Pe, Amazon Pay, Paytm.   
+       Card :- 
+            Debit :- 
+            HDFC, ICICI, Union Bank, SBI  
+            
+            Credit :- 
+            HDFC, ICICI, Union Bank, SBI       
+
+   
+Tasks :- 
+       Payment Options :-   
+       a. Build the UI layer - 5hr 
+       b. Build API Layer - 8hrs 
+       c. Build the DB layer - 6 hrs   
+
+ 
+      
+       
+     
