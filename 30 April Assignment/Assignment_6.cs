@@ -4,33 +4,24 @@
 //1: 3 times, 2: 2 times, 3: 1 time 
 
 using System;
+using System.Collections.Generic;
 
-public class Program
+class Program
 {
-    public static void Main()
+    static void RemoveDuplicates(int[] arr)
     {
-        int[] arr = {1, 2, 3, 4, 5, 67, 8, 9, 10, 3, 2, 1, 3, 2, 1};
-        int[] frequency = new int[arr.Length];
+        HashSet<int> uniqueSet = new HashSet<int>(arr);
 
-        for (int i = 0; i < arr.Length; i++)
-        {
-            frequency[i] = 1;
-            for (int j = i + 1; j < arr.Length; j++)
-            {
-                if (arr[i] == arr[j])
-                {
-                    frequency[i]++;
-                    frequency[j] = -1; 
-                }
-            }
-        }
+        Console.WriteLine("Array after removing duplicates:");
+        foreach (int num in uniqueSet)
+            Console.Write(num + " ");
 
-        for (int i = 0; i < arr.Length; i++)
-        {
-            if (frequency[i] != -1)
-            {
-                Console.WriteLine($"{arr[i]} appears {frequency[i]} times");
-            }
-        }
+        Console.WriteLine("\nNumber of unique elements: " + uniqueSet.Count);
+    }
+
+    static void Main()
+    {
+        int[] arr = { 1, 3, 5, 3, 7, 1, 9, 7 };
+        RemoveDuplicates(arr);
     }
 }
