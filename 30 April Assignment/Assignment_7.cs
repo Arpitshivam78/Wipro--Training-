@@ -6,35 +6,18 @@ class Program
 {
     static void RemoveDuplicates(int[] arr)
     {
-
         Array.Sort(arr);
+        int unique = 1;
 
-        int UniqueCount = 0;
+        for (int i = 1; i < arr.Length; i++)
+            if (arr[i] != arr[unique - 1])
+                arr[unique++] = arr[i];
 
-    
-        for (int i = 0; i < arr.Length; i++)
-        {
-            if (i == 0 || arr[i] != arr[i - 1])
-            {
-                arr[UniqueCount] = arr[i];
-                UniqueCount++;
-            }
-        }
-
-        for (int i = UniqueCount; i < arr.Length; i++)
-        {
-            arr[i] = 0;
-        }
-
-        
-        Console.WriteLine("Array after removing duplicates: ");
-        for (int i = 0; i < UniqueCount; i++)
-        {
+        Console.WriteLine("Array after removing duplicates:");
+        for (int i = 0; i < unique; i++)
             Console.Write(arr[i] + " ");
-        }
 
-        Console.WriteLine();
-        Console.WriteLine("Number of unique elements: " + UniqueCount);
+        Console.WriteLine("\nNumber of unique elements: " + unique);
     }
 
     static void Main()
