@@ -2,21 +2,16 @@
 
 using System; 
 
-class HelloWorld
-{ 
-    public static void Main(string[] args)
-    {   
+class HelloWorld{ 
+      static void Main(string[] args){ 
+
         int i = 1; 
-
         int square = 0; 
-        while(square < 100)
-        { 
-          square = i * i; 
-            Console.WriteLine(square); 
+
+        while(square < 100){ 
+            square = i * i; 
+            Console.WriteLine("This square of the numbers is :" + square); 
             i++; 
-        } 
-
-
-    }
-
+        }
+      }
 }

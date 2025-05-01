@@ -82,3 +82,41 @@ public class HelloWorld
         Console.WriteLine("The sum is: " + result); 
     }
 }
+
+// // Exercise 3: Reverse a number (e.g., 123321).
+
+using System; 
+
+class Reverse{ 
+         static void Main(string[] args){ 
+            int = 123321; 
+            int reversed = 0;  
+
+            whilr(i > 0){ 
+                int digit = i % 10; // get the last digit 
+                reversed = Reverse * 10 + digit; // add the last digit to the reversed number 
+                i = i / 10; // remove the last digit 
+            } 
+
+            Console.WriteLine("Reversed number: " + reversed);  
+
+         }
+} 
+
+// print squares of numbers untill the square exceeds 100. 
+
+using System; 
+
+class HelloWorld{ 
+      static void Main(string[] args){ 
+
+        int i = 1; 
+        int square = 0; 
+
+        while(square < 100){ 
+            square = i * i; 
+            Console.WriteLine("This square of the numbers is :" + square); 
+            i++; 
+        }
+      }
+}
