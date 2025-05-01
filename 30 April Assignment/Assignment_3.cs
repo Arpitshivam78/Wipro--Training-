@@ -5,14 +5,18 @@ using System;
 
 class HelloWorld
 {
-    public static void Main(string[] args) // Corrected method name and casing
+    public static void Main(string[] args)
     {
-        int i = 12345;
+        int i = 12345;       
+        int reversed = 0;   
 
-        while (i >= 1)
+        while (i > 0)
         {
-            Console.WriteLine(i);
-            i--;
+            int digit = i % 10;            
+            reversed = reversed * 10 + digit; 
+            i = i / 10;       
         }
+
+        Console.WriteLine("Reversed number: " + reversed);
     }
 }
