@@ -3,25 +3,40 @@
 //For (1, 2, 1, 3, 2, 1), output: 
 //1: 3 times, 2: 2 times, 3: 1 time 
 
-using System;
-using System.Collections.Generic;
-
-class Program
+class Element
 {
-    static void RemoveDuplicates(int[] arr)
+    static void Main(string[] args)
     {
-        HashSet<int> uniqueSet = new HashSet<int>(arr);
+        int[] arr = { 1, 2, 1, 3, 2, 1 };
+        int n = arr.Length;
+        int uniqueCount = 0;
+
+        for (int i = 0; i < n; i++)
+        {
+            bool isDuplicate = false;
+
+            for (int j = 0; j < uniqueCount; j++)
+            {
+                if (arr[i] == arr[j])
+                {
+                    isDuplicate = true;
+                    break;
+                }
+            }
+
+            if (!isDuplicate)
+            {
+                arr[uniqueCount] = arr[i]; // keep unique element
+                uniqueCount++;
+            }
+        }
 
         Console.WriteLine("Array after removing duplicates:");
-        foreach (int num in uniqueSet)
-            Console.Write(num + " ");
+        for (int i = 0; i < uniqueCount; i++)
+        {
+            Console.Write(arr[i] + " ");
+        }
 
-        Console.WriteLine("\nNumber of unique elements: " + uniqueSet.Count);
-    }
-
-    static void Main()
-    {
-        int[] arr = { 1, 3, 5, 3, 7, 1, 9, 7 };
-        RemoveDuplicates(arr);
+        Console.WriteLine("\nNumber of unique elements: " + uniqueCount);
     }
 }
