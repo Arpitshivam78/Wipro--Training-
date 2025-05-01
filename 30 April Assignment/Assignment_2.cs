@@ -4,18 +4,26 @@ using System;
 
 public class HelloWorld
 {
-    public static void Main(string[] args)
-    {
-        int num = 1234;
-        int sum = 0;
+    static int Sum(int a, int b)
+    {  
+        int sum = 0; 
 
-        while (num > 0)
-        {
-            int digit = num % 10;
-            sum = sum + digit;
-            num = num / 10;
-        }
+        for (int i = 0; i < a; i++)
+        { 
+            sum++;
+        } 
+        
+        for (int i = 0; i < b; i++)
+        { 
+            sum++;
+        }  
 
-        Console.WriteLine("Sum of digits: " + sum);
+        return sum; 
+    }  
+    
+    static void Main(string[] args)
+    { 
+        int result = Sum(65, 67);
+        Console.WriteLine("The sum is: " + result); 
     }
 }

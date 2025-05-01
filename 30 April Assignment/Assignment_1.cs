@@ -1,11 +1,11 @@
-//Exercise 1: Given a moosh number (1-12), print its name. 
+//Exercise 1: Given a month number (1-12), print its name. 
 
 
 using System;
 
 public class HelloWorld
 {
-    public static void Main(string[] args)  // Corrected method signature
+    public static void Main(string[] args)
     {
         int month = 5;
 
@@ -15,7 +15,7 @@ public class HelloWorld
         }
         else if (month == 2)
         {
-            Console.WriteLine("February");  // Spelling corrected
+            Console.WriteLine("February");  
         }
         else if (month == 3)
         {
@@ -59,7 +59,7 @@ public class HelloWorld
         }
         else
         {
-            Console.WriteLine("Invalid Month");  // Fixed typo: "Cosole" → "Console"
+            Console.WriteLine("Invalid Month");  
         }
     }
 }
