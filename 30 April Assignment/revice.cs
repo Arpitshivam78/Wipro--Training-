@@ -165,3 +165,60 @@ class Element
         Console.WriteLine("\nNumber of unique elements: " + uniqueCount);
     }
 }
+
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        int[] arr = { 1, 2, 3, 4 };  // example array (representing the number 1234)
+        int reversed = 0;
+
+        for (int i = arr.Length - 1; i >= 0; i--)
+        {
+            reversed = reversed * 10 + arr[i];  // add the array element to the reversed number
+        }
+
+        Console.WriteLine("Reversed number: " + reversed);
+    }
+}
+
+// BubbleSort 
+
+using System;
+
+class Program
+{
+    static void BubbleSort(int[] arr)
+    {
+        for (int i = 0; i < arr.Length - 1; i++)
+        {
+            bool swapped = false;
+            for (int j = 0; j < arr.Length - i - 1; j++)
+            {
+                if (arr[j] > arr[j + 1])
+                {
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                    swapped = true;
+                }
+            }
+            if (!swapped) break;
+        }
+    }
+
+    static void Main()
+    {
+        int[] arr = { 64, 34, 25, 12, 22, 11, 90 };
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(" ", arr));
+
+        BubbleSort(arr);
+
+        Console.WriteLine("Sorted array:");
+        Console.WriteLine(string.Join(" ", arr));
+    }
+}
+
