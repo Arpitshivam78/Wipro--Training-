@@ -11,4 +11,4 @@ HireDate DATE
 
 
 -- read 
--- Employee Table
+SELECT * FROM EMPLOYEE
