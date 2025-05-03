@@ -1,0 +1,39 @@
+CREATE TABLE PRODUCTS( 
+     ProductID INT PRIMARY KEY, 
+	 ProductName VARCHAR(100), 
+	 PRICE DECIMAL(10,2) 
+); 
+
+CREATE TABLE ORDERS( 
+     ORDERID INT PRIMARY KEY, 
+	 ProductID INT, 
+	 QUANTITY INT, 
+	 OrderDate DATE,
+	 FOREIGN KEY (ProductID) REFERENCES PRODUCTS (ProductID) 
+); 
+
+
+INSERT INTO Products (ProductID, ProductName, PRICE)
+VALUES
+(1, 'Laptop', 70000.00),
+(2, 'Smartphone', 30000.00),
+(3, 'Tablet', 20000.00),
+(4, 'Monitor', 15000.00);
+INSERT INTO ORDERS (OrderID, ProductID, QUANTITY, OrderDate)
+VALUES
+(101, 1, 2, '2024-12-01'),
+(102, 2, 1, '2024-12-05'),
+(103, 3, 3, '2024-12-10'),
+(104, 1, 1, '2024-12-15'),
+(105, 4, 2, '2024-12-20'); 
+
+FROM ORDERS 
+RIGHT JOIN PRODUCTS ON ORDERS.ProductID = PRODUCTS.ProductID;   
+
+-- 
+SELECT 
+      PRODUCTS.ProductName, 
+	  SUM(ORDERS.QUANTITY) AS TotalUnitSold 
+FROM ORDERS 
+INNER JOIN PRODUCTS ON ORDERS.ProductID = PRODUCTS.ProductID 
+GROUP BY PRODUCTS.ProductName; 
