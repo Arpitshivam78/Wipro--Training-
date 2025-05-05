@@ -13,5 +13,5 @@ BEGIN
 	       PRINT 'PRODUCT NOT FOUND' 
       END 
 END 
-
-EXEC CheckProductExhists @ProductID = 24
+--
+EXEC CheckProductExhists @ProductID = 24 
