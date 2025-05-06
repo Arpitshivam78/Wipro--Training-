@@ -11,8 +11,9 @@ class countwords{
                         count++; 
                     } 
                 } 
-                Console.WriteLine("Number of words: " + (count + 1));
+                Cons 
+                ole.WriteLine("Number of words: " + (count + 1));
       } 
       
-}  
+}   
 
