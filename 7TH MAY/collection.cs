@@ -6,7 +6,9 @@ class Program{
           list.Add("Apple"); 
           list.Add(42); 
           list.Add(3.14); 
-
+         
+          list.Insert(1, "Inserted"); 
+          Console.WriteLine("Element is inserted " + list[1]); 
          foreach (var item in list){ 
                 Console.WriteLine(item); 
          }  
