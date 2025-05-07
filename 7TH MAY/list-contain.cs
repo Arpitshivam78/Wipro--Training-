@@ -7,6 +7,7 @@ class Program{
           list.Add(42); 
           list.Add(3.14); 
           
+          
           if(list.Contains("Apple")){ 
                 Console.WriteLine("List contains Apple");
           } 
