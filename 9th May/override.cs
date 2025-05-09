@@ -27,6 +27,6 @@ class Program
         mgr.Work(); // Output: Manager is managing
 
         Employee empMgr = new Manager();
-        empMgr.Work(); // Output: Manager is managing (polymorphism)
+        empMgr.Work(); // Output: Manager is managing
     }
 }
