@@ -19,9 +19,9 @@ Implements IncreaseVolume() and DecreaseVolume() to print "Volume increased/decr
 In the Main() method:
 Create objects of SmartLight and SmartSpeaker using SmartDevice reference.
 Call ShowStatus(), TurnOn(), IncreaseVolume(), and DecreaseVolume() for both. 
-*/ 
+*/
 
-using System;
+using System; 
 
 namespace Assignment_1
 {
