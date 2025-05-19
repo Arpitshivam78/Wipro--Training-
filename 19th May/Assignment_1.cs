@@ -25,7 +25,7 @@ using System;
 
 namespace Assignment_1
 {
-    // Abstract class
+    
     abstract class SmartDevice
     {
         public abstract void TurnOn();
@@ -36,14 +36,14 @@ namespace Assignment_1
         }
     }
 
-    // Interface
+    
     interface IRemoteControl
     {
         void IncreaseVolume();
         void DecreaseVolume();
     }
 
-    // SmartLight class
+    
     class SmartLight : SmartDevice, IRemoteControl
     {
         public override void TurnOn()
@@ -62,7 +62,7 @@ namespace Assignment_1
         }
     }
 
-    // SmartSpeaker class
+    
     class SmartSpeaker : SmartDevice, IRemoteControl
     {
         public override void TurnOn()
@@ -88,7 +88,7 @@ namespace Assignment_1
             SmartDevice smartLight = new SmartLight();
             SmartDevice smartSpeaker = new SmartSpeaker();
 
-            // Cast to IRemoteControl to access volume methods
+            
             IRemoteControl lightControl = (IRemoteControl)smartLight;
             IRemoteControl speakerControl = (IRemoteControl)smartSpeaker;
 

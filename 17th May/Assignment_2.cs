@@ -50,12 +50,11 @@ class Program
     static void Main(string[] args)
     {
         SupportTicket support = new SupportTicket();
-
-        // Creating tickets
+        
         support.CreateTicketViaEmail("Issue with product");
         support.CreateTicketViaPhone("Issue with service");
 
-        // Resolving tickets
+        
         support.ResolveTicketViaEmail(123);
         support.ResolveTicketViaPhone(456);
     }

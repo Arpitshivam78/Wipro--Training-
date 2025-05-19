@@ -25,25 +25,25 @@ namespace Assignment_2
                 new Employee { EmployeeID = 5, Name = "Lakshay", Salary = 70000 }
             };
 
-            // Find the employee with the highest salary
+        
             var highestPaidEmployee = employees.OrderByDescending(e => e.Salary).First();
             Console.WriteLine($"The employee with the highest salary is {highestPaidEmployee.Name} with a salary of {highestPaidEmployee.Salary}");
 
-            // Store EmployeeID and Name in a Dictionary
+            
             Dictionary<int, string> employeeDictionary = new Dictionary<int, string>();
             foreach (var emp in employees)
             {
                 employeeDictionary.Add(emp.EmployeeID, emp.Name);
             }
 
-            // Display the dictionary contents
+            
             Console.WriteLine("\nEmployee Dictionary:");
             foreach (var entry in employeeDictionary)
             {
                 Console.WriteLine($"ID: {entry.Key}, Name: {entry.Value}");
             }
 
-            // Search for an employee by ID
+            
             int searchId = 3;
             if (employeeDictionary.ContainsKey(searchId))
             {
