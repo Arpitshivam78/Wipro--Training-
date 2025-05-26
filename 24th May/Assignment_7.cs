@@ -16,7 +16,7 @@ class Program
     {
         var stopwatch = new Stopwatch();
 
-        // Sequential Execution
+    
         stopwatch.Start();
         await SimulateWorkAsync("Task 1", 1000);
         await SimulateWorkAsync("Task 2", 2000);
@@ -24,7 +24,7 @@ class Program
         stopwatch.Stop();
         Console.WriteLine($"Sequential execution time: {stopwatch.ElapsedMilliseconds} ms\n");
 
-        // Parallel Execution
+        
         stopwatch.Restart();
         var task1 = SimulateWorkAsync("Task 1", 1000);
         var task2 = SimulateWorkAsync("Task 2", 2000);
