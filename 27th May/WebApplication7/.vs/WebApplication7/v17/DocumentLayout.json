@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lenovo\\source\\repos\\WebApplication7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72E59A85-7382-4315-AF5D-E36CC6D178D3}|WebApplication7\\WebApplication7.csproj|c:\\users\\lenovo\\source\\repos\\webapplication7\\webapplication7\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72E59A85-7382-4315-AF5D-E36CC6D178D3}|WebApplication7\\WebApplication7.csproj|solutionrelative:webapplication7\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E59A85-7382-4315-AF5D-E36CC6D178D3}|WebApplication7\\WebApplication7.csproj|c:\\users\\lenovo\\source\\repos\\webapplication7\\webapplication7\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72E59A85-7382-4315-AF5D-E36CC6D178D3}|WebApplication7\\WebApplication7.csproj|solutionrelative:webapplication7\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E59A85-7382-4315-AF5D-E36CC6D178D3}|WebApplication7\\WebApplication7.csproj|c:\\users\\lenovo\\source\\repos\\webapplication7\\webapplication7\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72E59A85-7382-4315-AF5D-E36CC6D178D3}|WebApplication7\\WebApplication7.csproj|solutionrelative:webapplication7\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E59A85-7382-4315-AF5D-E36CC6D178D3}|WebApplication7\\WebApplication7.csproj|c:\\users\\lenovo\\source\\repos\\webapplication7\\webapplication7\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72E59A85-7382-4315-AF5D-E36CC6D178D3}|WebApplication7\\WebApplication7.csproj|solutionrelative:webapplication7\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E59A85-7382-4315-AF5D-E36CC6D178D3}|WebApplication7\\WebApplication7.csproj|c:\\users\\lenovo\\source\\repos\\webapplication7\\webapplication7\\models\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72E59A85-7382-4315-AF5D-E36CC6D178D3}|WebApplication7\\WebApplication7.csproj|solutionrelative:webapplication7\\models\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E59A85-7382-4315-AF5D-E36CC6D178D3}|WebApplication7\\WebApplication7.csproj|c:\\users\\lenovo\\source\\repos\\webapplication7\\webapplication7\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72E59A85-7382-4315-AF5D-E36CC6D178D3}|WebApplication7\\WebApplication7.csproj|solutionrelative:webapplication7\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E59A85-7382-4315-AF5D-E36CC6D178D3}|WebApplication7\\WebApplication7.csproj|c:\\users\\lenovo\\source\\repos\\webapplication7\\webapplication7\\migrations\\20250527060038_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72E59A85-7382-4315-AF5D-E36CC6D178D3}|WebApplication7\\WebApplication7.csproj|solutionrelative:webapplication7\\migrations\\20250527060038_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\WebApplication7\\WebApplication7\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication7\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\WebApplication7\\WebApplication7\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication7\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAACQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T05:51:36.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\WebApplication7\\WebApplication7\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication7\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\WebApplication7\\WebApplication7\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplication7\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T05:32:37.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "About.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\WebApplication7\\WebApplication7\\Models\\About.cs",
+              "RelativeDocumentMoniker": "WebApplication7\\Models\\About.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\WebApplication7\\WebApplication7\\Models\\About.cs",
+              "RelativeToolTip": "WebApplication7\\Models\\About.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T05:24:20.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\WebApplication7\\WebApplication7\\Models\\Contact.cs",
+              "RelativeDocumentMoniker": "WebApplication7\\Models\\Contact.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\WebApplication7\\WebApplication7\\Models\\Contact.cs",
+              "RelativeToolTip": "WebApplication7\\Models\\Contact.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T05:13:37.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\WebApplication7\\WebApplication7\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "WebApplication7\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\WebApplication7\\WebApplication7\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "WebApplication7\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAgwIgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T04:24:40.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\WebApplication7\\WebApplication7\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "WebApplication7\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\WebApplication7\\WebApplication7\\Models\\Product.cs",
+              "RelativeToolTip": "WebApplication7\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T04:15:31.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20250527060038_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\WebApplication7\\WebApplication7\\Migrations\\20250527060038_InitialCreate.cs",
+              "RelativeDocumentMoniker": "WebApplication7\\Migrations\\20250527060038_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\WebApplication7\\WebApplication7\\Migrations\\20250527060038_InitialCreate.cs",
+              "RelativeToolTip": "WebApplication7\\Migrations\\20250527060038_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T06:00:38.866Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
