@@ -115,7 +115,7 @@ class SqlConnectionDemo
             }
             if (conn != null)
             {
-                conn.Close();
+[dbo].[Suppliers]                conn.Close();
             }
         }
         Console.ReadLine();
