@@ -1,0 +1,181 @@
+﻿@{
+    
+    var layoutBackgroundUrl = "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=1500&q=80";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Employee Data</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/WebApplication8.styles.css" asp-append-version="true" />
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background-image: url('@layoutBackgroundUrl');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .main-content-bg {
+            background: #222;
+            border-radius: 12px;
+            box-shadow: 0 4px 24px #222;
+            padding: 2rem 1.5rem;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .custom-navbar {
+            background: #222 !important;
+            border-radius: 12px;
+        }
+
+            .custom-navbar .nav-link,
+            .custom-navbar .navbar-brand {
+                color: #fff !important;
+                font-weight: 500;
+                letter-spacing: 0.5px;
+                transition: color 0.2s;
+            }
+
+                .custom-navbar .nav-link:hover,
+                .custom-navbar .navbar-brand:hover {
+                    color: #ffd700 !important; /* Gold on hover */
+                    text-decoration: underline;
+                }
+
+            .custom-navbar .navbar-toggler {
+                border-color: #fff;
+            }
+
+            .custom-navbar .navbar-toggler-icon {
+                background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+            }
+
+        .navbar, .footer {
+            border-radius: 12px;
+        }
+
+        footer.footer {
+            margin-top: auto;
+            padding: 0.5rem 0;
+            font-size: 0.95rem;
+            background: #222;
+            color: #bbb;
+            border-radius: 12px;
+        }
+
+            footer.footer a {
+                color: #bbb;
+                text-decoration: underline;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm custom-navbar border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Employee Data</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Employees" asp-action="Index">Employee</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="ContactUs">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="AboutUs">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container main-content-bg">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="footer border-bottom-0 text-muted">
+        <div class="container text-center">
+            &copy; 2025 - Employee - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer> 
+    <style>
+    /* Your existing styles here */
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-image: url('@layoutBackgroundUrl');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+        <footer class="footer fixed-footer border-bottom-0 text-muted" >
+        <div class="container text-center" >
+        &copy; 2025 - Employee - <a asp-area="" asp-controller="Home" asp-action="Privacy" > Privacy</a >
+        </div >
+        </footer >
+        <style >
+        .fixed-footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            z-index: 1030;
+            background: #222;
+            color: #bbb;
+            border-radius: 0;
+            padding: 0.5rem 0;
+            font-size: 0.95rem;
+            box-shadow: 0 -2px 12px rgba(0,0,0,0.15);
+        }
+
+        .fixed-footer a {
+            color: #bbb;
+            text-decoration: underline;
+        }
+        
+        .main-content-bg {
+            padding-bottom: 3rem;
+        }
+    </style>
+
+</style>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

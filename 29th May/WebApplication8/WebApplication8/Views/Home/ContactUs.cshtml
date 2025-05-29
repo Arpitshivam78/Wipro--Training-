@@ -1,0 +1,83 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{ 
+
+    ViewData["Title"] = "Contact Us";
+    
+    var backgroundImageUrl = "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=1500&q=80";
+}
+
+<style>
+    .contact-background {
+        background-image: url('@backgroundImageUrl');
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact-content {
+        background: rgba(0, 0, 0, 0.7);
+        padding: 2rem 3rem;
+        border-radius: 12px;
+        max-width: 500px;
+        width: 100%;
+        box-shadow: 0 4px 24px rgba(0,0,0,0.2);
+    }
+    .contact-title {
+        font-size: 2.2rem;
+        margin-bottom: 1rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    .contact-form label {
+        display: block;
+        margin-top: 1rem;
+        margin-bottom: 0.3rem;
+        font-weight: 500;
+    }
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+        padding: 0.6rem;
+        border-radius: 6px;
+        border: none;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+    .contact-form button {
+        background: #0078d7;
+        color: #fff;
+        border: none;
+        padding: 0.7rem 2rem;
+        border-radius: 6px;
+        font-size: 1.1rem;
+        cursor: pointer;
+        transition: background 0.2s;
+    }
+    .contact-form button:hover {
+        background: #005fa3;
+    }
+</style>
+
+<div class="contact-background">
+    <div class="contact-content">
+        <div class="contact-title">Contact Us</div>
+        <form class="contact-form" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</div>
+

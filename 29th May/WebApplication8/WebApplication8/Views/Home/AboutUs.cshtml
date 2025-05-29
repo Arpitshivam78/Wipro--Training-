@@ -1,0 +1,57 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+
+*@ 
+@{
+    ViewData["Title"] = "About Us";
+    
+    var backgroundImageUrl = "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1500&q=80";
+}
+
+<style>
+    .about-background {
+        background-image: url('@backgroundImageUrl');
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        color: #fff;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-content {
+        background: rgba(0, 0, 0, 0.6);
+        padding: 2rem 3rem;
+        border-radius: 12px;
+        max-width: 600px;
+        text-align: center;
+        box-shadow: 0 4px 24px rgba(0,0,0,0.2);
+    }
+
+    .about-title {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        font-weight: bold;
+    }
+
+    .about-text {
+        font-size: 1.2rem;
+        line-height: 1.7;
+    }
+</style>
+
+<div class="about-background">
+    <div class="about-content">
+        <div class="about-title">About Us</div>
+        <div class="about-text">
+            Welcome to our company!<br /><br />
+            We are dedicated to delivering high-quality solutions and exceptional service.
+            Our team is passionate about innovation, collaboration, and making a positive impact.<br /><br />
+            Thank you for visiting our About Us page.
+        </div>
+    </div>
+</div>
+
