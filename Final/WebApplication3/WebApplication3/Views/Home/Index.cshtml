@@ -1,0 +1,59 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div style="
+        /* Inline hero background */
+        background-image: url('https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?cs=srgb&dl=pexels-pixabay-206359.jpg&fm=jpg');
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        padding-top: 4rem;
+        text-align: center;
+        color: white;
+    ">
+    <h1 style="font-size: 3rem; font-weight: 300;">Welcome to Employee Management System</h1>
+    <p style="font-size: 1.25rem;">
+        
+    </p>
+
+    <hr style="
+        width: 25%;
+        border-top: 2px solid rgba(255,255,255,0.8);
+        margin: 2rem auto;
+    " />
+
+    
+    <div style="
+            max-width: 600px;
+            margin: 2rem auto;
+            padding: 1.5rem;
+            background: rgba(255,255,255,0.85);
+            border: 2px solid #ccc;
+            border-radius: 1rem;
+            transition: box-shadow 0.3s ease, border-color 0.3s ease;
+            box-sizing: border-box;
+        "
+         onmouseover="this.style.borderColor='#007bff'; this.style.boxShadow='0 0 15px rgba(0,123,255,0.5)';"
+         onmouseout="this.style.borderColor='#ccc'; this.style.boxShadow='none';">
+        <h2 style="margin-bottom: 1rem;"> Search Employees</h2>
+        <form asp-controller="Employees" asp-action="Index" method="get" style="display:flex; flex-wrap:wrap; gap:0.5rem;">
+            <input type="text" name="searchString"
+                   placeholder="Name or Dept"
+                   style="flex:1 1 30%; padding:0.5rem; border:1px solid #999; border-radius:0.25rem;" />
+
+            <input type="date" name="dateFrom"
+                   title="Date of Joining"
+                   style="flex:1 1 20%; padding:0.5rem; border:1px solid #999; border-radius:0.25rem;" />
+
+            <input type="number" name="minSalary"
+                   placeholder="Min Salary"
+                   style="flex:1 1 20%; padding:0.5rem; border:1px solid #999; border-radius:0.25rem;" />
+
+            <button type="submit"
+                    style="flex:1 1 20%; padding:0.6rem; background:#007bff; color:white; border:none; border-radius:0.25rem;">
+                Search
+            </button>
+        </form>
+    </div>
+</div>
